@@ -1,0 +1,62 @@
+.flex-body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-container{
+    display: flex;
+    flex: 1;
+}
+
+header, footer{
+    background-color: purple;
+}
+
+.content{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+}
+.gradientBox{
+    display:flex;
+    min-width: 600px;
+    width:50%; 
+    background-color: blueviolet;
+} 
+
+.images{
+    display:flex;
+    min-width: 600px;
+    width:50%;
+}
+
+#box1{
+    display:flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    width:100%;
+}
+
+#gradientBox1{
+    display:flex;
+}
+
+#box2{
+    display:flex;
+    flex-direction: row;
+     width:100%;
+}
+#box3{
+    display:flex;
+    flex-direction: row;
+     width:100%;
+}
+.sidebar1, .sidebar2{
+    background-color: green;
+    flex: 0 0 90px;
+}
+
+.sidebar1{
+    order: -1;
+}

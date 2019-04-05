@@ -10,7 +10,15 @@
 }
 
 header, footer{
-    background-color: purple;
+    background-color: whitesmoke;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+header li{
+    list-style-type: none;
 }
 
 .content{
@@ -22,7 +30,8 @@ header, footer{
     display:flex;
     min-width: 600px;
     width:50%; 
-    background-color: blueviolet;
+    /* background-image: linear-gradient(to right, red , yellow); */
+    background-image: linear-gradient(to right, rgb(170, 208, 188),rgb(3, 30, 48));
 } 
 
 .images{
@@ -53,10 +62,23 @@ header, footer{
      width:100%;
 }
 .sidebar1, .sidebar2{
-    background-color: green;
-    flex: 0 0 90px;
+    background-color: whitesmoke;
+    /* flex: 0 0 90px; */
 }
 
 .sidebar1{
     order: -1;
 }
+.parallax {
+    /* The image used */
+    background-image: url('ariel-12.jpg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
